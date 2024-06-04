@@ -91,6 +91,7 @@ fieldset {
 
 .content__list {
   position: relative;
+  min-width: 399px;
   max-height: 298px;
   overflow-y: auto;
 }
@@ -121,6 +122,17 @@ fieldset {
 .content__card-link {
   color: #fff;
   text-decoration: none;
+  margin: 1px;
+  display:block;
+}
+
+.content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .content__video-card {
